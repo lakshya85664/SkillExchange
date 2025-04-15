@@ -1,0 +1,152 @@
+
+
+  /* Footer Styles */
+.footer {
+  background: linear-gradient(135deg, #01579b, #0d47a1);
+  color: #fff;
+  padding: 40px 0 0;
+  font-family: "Arial", sans-serif;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  box-sizing: border-box;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #f1c40f;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.footer-section h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #f1c40f;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #bbb;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.footer-section ul li a:hover {
+  color: #f1c40f;
+  transform: translateX(5px);
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #bbb;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f1c40f;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  color: #bdbdbd;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #757575;
+  font-size: 14px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .footer-content {
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 30px 0 0;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-section {
+    flex: 1 1 100%;
+    margin: 0 0 20px 0;
+  }
+  
+  .social-icons {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-section h2 {
+    font-size: 18px;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    font-size: 13px;
+  }
+  
+  .footer-bottom {
+    font-size: 12px;
+  }
+}

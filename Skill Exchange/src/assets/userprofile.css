@@ -1,0 +1,269 @@
+/* .miui-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+  }
+  
+  .miui-card {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .miui-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .profile-header {
+    margin-bottom: 15px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .email, .contact {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .skills-section {
+    margin: 15px 0;
+  }
+  
+  .skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 12px;
+  }
+  
+  .actions {
+    margin-top: 15px;
+  }
+  
+  .edit-btn {
+    background: #007AFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .edit-btn:hover {
+    background: #0051a8;
+  }
+  
+  .edit-form {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .edit-form label {
+    font-weight: bold;
+  }
+  
+  .edit-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .save-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background: #357a38;
+  }
+  
+  .cancel-btn {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn:hover {
+    background: #c62828;
+  }
+   */
+/* Background Gradient */
+.miui-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #2e3b4e, #1c2331);
+    padding: 20px;
+}
+
+/* MIUI-style Card */
+.miui-card {
+    background: linear-gradient(135deg, #ffffff, #f2f2f2);
+    border-radius: 25px;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.miui-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile Image */
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+.email,
+.contact {
+    color: #444;
+    font-size: 16px;
+}
+
+/* Skill Badges */
+.skills-section {
+    margin: 20px 0;
+}
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    background: linear-gradient(to right, #4CAF50, #3E8E41);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+.actions {
+    margin-top: 20px;
+}
+
+.edit-btn {
+    background: linear-gradient(to right, #007AFF, #0051a8);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.edit-btn:hover {
+    background: linear-gradient(to right, #0051a8, #003c7d);
+}
+
+/* Form Inputs */
+.edit-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.edit-form label {
+    font-weight: bold;
+}
+
+.edit-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Form Buttons */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.save-btn {
+    background: linear-gradient(to right, #4CAF50, #357a38);
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-btn:hover {
+    background: linear-gradient(to right, #357a38, #1e5628);
+}
+
+.cancel-btn {
+    background: linear-gradient(to right, #f44336, #c62828);
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cancel-btn:hover {
+    background: linear-gradient(to right, #c62828, #9c1c1c);
+}
